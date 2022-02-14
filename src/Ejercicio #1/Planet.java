@@ -2,7 +2,7 @@
 /**
  * @author [Juan Camilo, Cantillo Henao]
  */
-public class PlanetarySystem {
+public class Planet {
     private double mass;
     private double density;
     private int diameter;
@@ -10,7 +10,7 @@ public class PlanetarySystem {
     private int id;
     private String name;
 
-    public PlanetarySystem(double mass, double density, int diameter, double distanceSun, int id, String name) {
+    public Planet(double mass, double density, int diameter, double distanceSun, int id, String name) {
         this.mass = mass;
         this.density = density;
         this.diameter = diameter;
